@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    height:100vh;
+    background-image: url('./images/pizza2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+}
+header{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav{
+    display:flex;
+    flex:1 1 650px;
+    justify-content: flex-end;
+    margin-right:40px;
+    align-items:center;
+}
+header nav:hover{
+    text-decoration: dashed;
+}
+
+header nav a{
+    padding: 10px 20px;
+    text-decoration:double;
+    color:white;
+    font-weight: bold;
+}
+
+header .logo{
+    width:150px;
+    height: 150px;
+    flex:0 1 200px;
+    margin-left:20px;
+}
+header .logo img{
+    width: inherit;
+    height: inherit;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.main h1{
+    font-size: 3em;
+    color:white;
+    padding-bottom: 50px;
+}
+
+.main h3{
+    font-size: 2em;
+    color: yellow;
+    padding-bottom: 30px;
+    font: weight 400;
+}
+
+.main p{
+    color: white;
+    font-weight: 100;
+}
+
+.button{
+    width: 250px;
+    padding: 20px 15px;
+    border: 2px solid yellow;
+    border-radius:5px ;
+    margin-top:40px;
+    color:yellow;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: red;
+    border-color: red;
+    transform: rotate(5deg);
+    transition: all 0.2s ease-in-out ;
+}
